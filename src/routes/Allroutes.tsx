@@ -1,0 +1,24 @@
+import React, { lazy } from "react"
+import { createBrowserRouter } from "react-router-dom"
+import { Homelayout } from "../components"
+import { ErrorBoundary, fetchDictionary } from "../utils"
+import NotFound from "../utils/hoc/NotFound"
+
+const Home = lazy(() => import("../pages/Home"))
+const About = lazy(() => import("../pages/About"))
+
+export const element = createBrowserRouter([
+    {
+        path: "/",
+        element: <Homelayout />,
+        children: [
+            index: true,
+            element: <Home />,
+            errorElement : <ErrorBoundary />,
+            hasErrorBoundary : true,
+        ]
+    }, {
+        path: "*",
+        element: <NotFound />
+    }
+])
