@@ -4,18 +4,18 @@ const Loading = () => {
   return (
       <div
           style={{
-				height: "100vh",
-				width: "100%",
-				position: "absolute",
-				top: 0,
-				bottom: 0,
-				backgroundColor: "#123456",
-				color: "white",
-				display: "flex",
-				justifyContent: "center",
-				alignItems: "center",
-			}}
-      >Loading...</div>
+              height: "100vh",
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              backgroundColor: "red",
+              position: "absolute",
+              color: "#fff",
+              top: "0px",
+              bottom: "0px",
+          }}
+      >Loading</div>
   )
 }
 
