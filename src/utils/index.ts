@@ -1,2 +1,2 @@
-export * from "./hoc";
-export * from "./api";
+export * from "./hoc"
+export * from "./api"

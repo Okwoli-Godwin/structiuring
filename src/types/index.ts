@@ -1,4 +1,4 @@
-export type Iuser = {
+export type IUser = {
     name: string;
     email: string;
     password: string;

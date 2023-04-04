@@ -1,12 +1,13 @@
 import React from 'react'
-import { useQuery, useMutation } from "@tanstack/react-query"
-import { fetchDictionary } from "../utils"
-import {Iuser} from "../types"
+import { useQuery, useMutation } from '@tanstack/react-query'
+import { fetchDictionary } from '../utils'
+import {IUser} from "../types"
 
 const Home = () => {
+
     const { data } = useQuery({
-        querykey: ["dictionary"],
-        queryfn: fetchDictionary,
+        queryKey: ["dictionary"],
+        queryFn: fetchDictionary
     })
 
     console.log("reading data", data)

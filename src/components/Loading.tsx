@@ -15,9 +15,7 @@ const Loading = () => {
 				justifyContent: "center",
 				alignItems: "center",
 			}}
-      >
-          Loading...
-      </div>
+      >Loading...</div>
   )
 }
 
