@@ -1,8 +1,14 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
+import { Footer, Header } from '../../blocks'
 
 const Homelayout = () => {
   return (
-    <div>Homelayout</div>
+      <div>
+          <Header />
+          <Outlet />
+          <Footer />
+    </div>
   )
 }
 
