@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from "axios";
 
 const instance = axios.create({
     baseURL: "https://mashape-community-urban-dictionary.p.rapidapi.com",
@@ -7,5 +7,4 @@ const instance = axios.create({
 		"X-RapidAPI-Host": "mashape-community-urban-dictionary.p.rapidapi.com",
     }
 })
-
 export default instance
