@@ -4,7 +4,7 @@ import { Dashboardlayout } from "../components"
 
 export const dashElement = createBrowserRouter([
     {
-        path: "/Dashboard",
+        path: "/",
         element: <Dashboardlayout />
     }
 ])
