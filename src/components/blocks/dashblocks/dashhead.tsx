@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const dashhead = () => {
+const Dashhead = () => {
   return (
       <Container>
           🍗🍖🍗🍖🥵🥵
@@ -9,7 +9,7 @@ const dashhead = () => {
   )
 }
 
-export default dashhead
+export default Dashhead
 
 const Container = styled.div`
     width: 100%;

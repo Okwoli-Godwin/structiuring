@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 
-const dashbody = () => {
+const Dashbody = () => {
   return (
       <Container>
           😎😎😒🤷‍♀️
@@ -9,7 +9,7 @@ const dashbody = () => {
   )
 }
 
-export default dashbody
+export default Dashbody
 
 const Container = styled.div`
     width: calc(100% - 250px);

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const dashsidebar = () => {
+const Dashsidebar = () => {
   return 
       <Container>
           🤗☺🤗🤗🤗☺
@@ -9,7 +9,7 @@ const dashsidebar = () => {
   
 }
 
-export default dashsidebar
+export default Dashsidebar
 
 const Container = styled.div`
     width: 250px;
