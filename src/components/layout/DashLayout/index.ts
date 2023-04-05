@@ -1,1 +1,1 @@
-export {default as Dashlayout} from "./Dashlayout"
+export {default as Dashboardlayout} from "./Dashboardlayout"
