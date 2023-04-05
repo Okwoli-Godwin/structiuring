@@ -16,4 +16,7 @@ const Container = styled.div`
     height: 100vh;
     background-color: blue;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
