@@ -8,6 +8,7 @@ import {element} from "./routes/Allroutes"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Loading from "./components/Loading";
+import { dashElement } from "./routes/Dashroute";
 
 const client = new QueryClient();
 
@@ -18,7 +19,8 @@ root.render(
 	<React.StrictMode>
 		<Suspense fallback={<Loading />}>
 			<QueryClientProvider client={client}>
-				<RouterProvider router={element} />
+        <RouterProvider router={element} />
+        <RouterProvider router={dashElement} />
 				<ReactQueryDevtools />
 			</QueryClientProvider>
 		</Suspense>
